@@ -1,0 +1,52 @@
+//Exercise 1 - Verificação de igualdade de variáveis;
+
+function igualdadeVariaveis(){
+mesmoNome = (nomeDoFulano == nomeDoBeltrano)
+console.log(mesmoNome)
+}
+igualdadeVariaveis()
+
+
+//Exercise 2 - Verificação de maioridade;
+
+function verMaior(){
+maiorDeIdade = (idade >= 18)
+console.log(maiorDeIdade)
+}
+verMaior()
+
+
+//Exercise 3 - Cálculo de juros de um boleto;
+
+function jurosBol(){
+valorComJuros = (boleto * 1.1)
+console.log(valorComJuros)
+}
+jurosBol()
+
+
+//Exercise 4 - Cálculo Média;
+
+
+//Exercise 5 - Lucro e margem bruta de uma empresa;
+
+function lucroMargem(){
+lucroBruto = receitaLiquida - custoProdutosVendidos
+margemBruta = (lucroBruto / receitaLiquida) * 100
+console.log(margemBruta)
+}
+lucroMargem()
+
+
+//Exercise 6 - Atualização de saldo;
+
+function atSaldo(){
+saldo = 1000.00
+saldo = saldo - 99.9
+saldo = saldo + 2500.00
+saldo = saldo - 0.1
+saldo = saldo * 0.75
+saldo = saldo / 2
+console.log(saldo)
+}
+atSaldo()
