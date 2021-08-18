@@ -27,6 +27,19 @@ jurosBol()
 
 //Exercise 4 - Cálculo Média;
 
+function calculoLista (itens) {
+  count = 0
+  for (var i = 0;i<itens.length;i++){
+    count = count + itens [i]
+  }
+  return count 
+}
+
+function calcMedia(){
+itens = [7 , 6 , 8 , 1 , 9]
+media = (calculoLista(itens)/itens.length)
+console.log(media)
+}
 
 //Exercise 5 - Lucro e margem bruta de uma empresa;
 
