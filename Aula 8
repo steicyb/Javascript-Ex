@@ -1,0 +1,9 @@
+//Exercise 1 - Criar array e imprimir os valores
+
+lista = ["Segunda", "Quarta", "Terça" , "Domingo", "Sexta"]
+itens = 0
+while(itens < lista.lenght){
+  console.log(lista[itens])
+  itens++
+}
+
